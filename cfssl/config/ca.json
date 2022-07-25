@@ -1,0 +1,19 @@
+{
+    "CN": "(LOCAL) ROOT CA",
+    "key": {
+        "algo": "rsa",
+        "size": 4096 
+    },
+    "names": [
+        {
+            "C": "--",
+            "ST": "STATE",
+            "L": "LOCALITY",
+            "O": "ORGANISATION",
+            "OU": "LOCAL"
+        }
+    ],
+    "ca": {
+        "expiry": "131400h"
+    }
+}
