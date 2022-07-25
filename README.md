@@ -51,6 +51,7 @@ Before deploying be sure to secure keys and certificates. The only files that ar
 
 `nginx`:
 
+  - certs/combined.ca.pem
   - certs/localhost.pem
   - certs/localhost-key.pem
 
@@ -61,5 +62,3 @@ client:
   - certs/localhost.client-key.pem
 
 Everything else should be kept in a secure location.
-
-`ca-root*`
