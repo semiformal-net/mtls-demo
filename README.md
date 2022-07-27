@@ -62,3 +62,7 @@ client:
   - certs/localhost.client-key.pem
 
 Everything else should be kept in a secure location.
+
+# TODO
+
+- Check out [nginx secure key storage](https://www.nginx.com/blog/secure-distribution-ssl-private-keys-nginx/#encrypt-keys) - encrypt the ssl certificate, require pw to decrypt before nginx will launch
